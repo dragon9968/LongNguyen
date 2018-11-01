@@ -33,9 +33,9 @@ public class FirstTestCase {
 	
 		DOMConfigurator.configure("log4j.xml");
 		
-	    String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
+	    //String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
 		//String exePath = "C:\\Automation Code\\driver\\geckodriver-v0.19.1-win64\\geckodriver.exe";
-		System.setProperty("webdriver.chrome.driver", exePath);
+		//System.setProperty("webdriver.chrome.driver", exePath);
 		//System.setProperty("webdriver.gecko.driver", exePath);
 	    driver = new ChromeDriver();
 		//driver = new FirefoxDriver();
