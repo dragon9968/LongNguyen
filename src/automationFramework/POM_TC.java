@@ -25,20 +25,26 @@ public class POM_TC {
 	public static void main(String[] args) throws Exception {
 		
 		//String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
+		
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
 		DOMConfigurator.configure("log4j.xml");
 
 		Log.startTestCase("Selenium_Test_001");
 		
 		//System.setProperty("webdriver.chrome.driver", Constant.exePath);
-	    driver = new ChromeDriver();
+		
+	    //driver = new ChromeDriver();
+			driver = new FirefoxDriver();
+		
+		
 	    Log.info("Start Chrome");
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    driver.get(Constant.URL);
 	    Log.info("Open Url");
 	    driver.manage().window().maximize();
 	    Log.info("Maximum the Window");
-	    
+		//}
+		
 	    /*HomePage.lnk_Login(driver).click();
 	    Thread.sleep(2000);
 		
@@ -70,6 +76,6 @@ public class POM_TC {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();
 		Log.endTestCase("Selenium_Test_001");
-		ExcelUtils.setCellData("Pass", 1, 3);
+		ExcelUtils.setCellData("Pass", 1, 4);
 	}
 }

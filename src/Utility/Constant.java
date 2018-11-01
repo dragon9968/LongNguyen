@@ -10,7 +10,13 @@ public class Constant {
      public static final String Username = "longnguyen";
 	 public static final String Password ="Long1234@";
 
-    
+	 public static final int Col_TestCaseName = 0;	
+	 
+		public static final int Col_UserName =1 ;
+
+		public static final int Col_Password = 2;
+
+		public static final int Col_Browser = 3;
 
      public static final String Path_TestData = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\testData\\";
      
