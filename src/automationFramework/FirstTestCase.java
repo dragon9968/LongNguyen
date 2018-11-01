@@ -52,11 +52,11 @@ public class FirstTestCase {
 
 				//Wait for 5 Sec
 				Thread.sleep(2000);
-				driver.findElement(By.xpath(".//*[@id='idp_section_buttons']/button")).click();
+				/*driver.findElement(By.xpath(".//*[@id='idp_section_buttons']/button")).click();
 				Thread.sleep(1000);
 				Runtime.getRuntime().exec("C:\\Automation Code\\authentication.exe");
 				 
-			    Thread.sleep(5000);
+			    Thread.sleep(5000);*/
 
 				/*
 				String title = driver.getTitle();
@@ -89,23 +89,23 @@ public class FirstTestCase {
 				driver.navigate().to("https://www.donortiles.com/");
 				//driver.navigate().back();
 				//driver.navigate().forward();
-				//driver.findElement(By.xpath("//*[contains(text(),'LOG IN')]")).click();
+				driver.findElement(By.xpath("//*[contains(text(),'LOG IN')]")).click();
 				Thread.sleep(3000);
 				
 				
 				//Use pageObjects
 				
-				HomePage.lnk_Login(driver).click();
+				//HomePage.lnk_Login(driver).click();
 				Thread.sleep(2000);
-				//driver.findElement(By.id("organizationBt")).click();
-				HomePage.lnk_BtOrg(driver).click();
+				driver.findElement(By.id("organizationBt")).click();
+				//HomePage.lnk_BtOrg(driver).click();
 				
-				//driver.findElement(By.id("emailInputOrg")).sendKeys("dragon9968@gmail.com");
-				//driver.findElement(By.id("passInputOrg")).sendKeys("123456");
-				//driver.findElement(By.id("sendEmailBtOrg")).click();
-				Login.txt_Email(driver).sendKeys("dragon9968@gmail.com");
-				Login.txt_Password(driver).sendKeys("123456");
-				Login.btn_Send(driver).click();
+				driver.findElement(By.id("emailInputOrg")).sendKeys("dragon9968@gmail.com");
+				driver.findElement(By.id("passInputOrg")).sendKeys("123456");
+				driver.findElement(By.id("sendEmailBtOrg")).click();
+				//Login.txt_Email(driver).sendKeys("dragon9968@gmail.com");
+				//Login.txt_Password(driver).sendKeys("123456");
+				//Login.btn_Send(driver).click();
 				Thread.sleep(3000);
 				
 				
@@ -126,8 +126,6 @@ public class FirstTestCase {
 				
 				Thread.sleep(2000);
 				driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();
-
-
 
 
 	}
