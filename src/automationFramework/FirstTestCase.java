@@ -37,8 +37,8 @@ public class FirstTestCase {
 		//String exePath = "C:\\Automation Code\\driver\\geckodriver-v0.19.1-win64\\geckodriver.exe";
 		//System.setProperty("webdriver.chrome.driver", exePath);
 		//System.setProperty("webdriver.gecko.driver", exePath);
-	    driver = new ChromeDriver();
-		//driver = new FirefoxDriver();
+	    //driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 				
 		        //Launch the Online Store Website
 				driver.get("https://heb--magrabcert.lightning.force.com");
