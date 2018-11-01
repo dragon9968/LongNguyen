@@ -1,0 +1,105 @@
+[1mdiff --git a/logfile.log b/logfile.log[m
+[1mindex 81becbd..84885fe 100644[m
+[1m--- a/logfile.log[m
+[1m+++ b/logfile.log[m
+[36m@@ -1,4 +1,18 @@[m
+[31m-2018-11-01 14:21:41,681 INFO  [Log] ------Selenium_Test_001------ [m
+[31m-2018-11-01 14:21:46,551 INFO  [Log] Start Chrome [m
+[31m-2018-11-01 14:21:56,702 INFO  [Log] Open Url [m
+[31m-2018-11-01 14:21:56,771 INFO  [Log] Maximum the Window [m
+[32m+[m[32m2018-11-01 11:44:44,466 INFO  [Log] ------Selenium_Test_001------[m[41m [m
+[32m+[m[32m2018-11-01 11:44:47,642 INFO  [Log] Start Chrome[m[41m [m
+[32m+[m[32m2018-11-01 11:44:59,946 INFO  [Log] Open Url[m[41m [m
+[32m+[m[32m2018-11-01 11:45:01,140 INFO  [Log] Maximum the Window[m[41m [m
+[32m+[m[32m2018-11-01 11:45:01,236 INFO  [Log] LOG IN Button found[m[41m [m
+[32m+[m[32m2018-11-01 11:45:01,384 INFO  [Log] CLick Login button[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,418 INFO  [Log] ORG Button found[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,489 INFO  [Log] Click Org button[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,512 INFO  [Log] Email textbox found[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,688 INFO  [Log] Input Wrong Email[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,708 INFO  [Log] Password textbox found[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,816 INFO  [Log] Input Wrong Password[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,838 INFO  [Log] SendEmail button found[m[41m [m
+[32m+[m[32m2018-11-01 11:45:03,934 INFO  [Log] Click Send button[m[41m [m
+[32m+[m[32m2018-11-01 11:45:06,935 INFO  [Log] Login Successfully[m[41m [m
+[32m+[m[32m2018-11-01 11:45:09,098 INFO  [Log] ______Selenium_Test_001_______[m[41m [m
+[32m+[m[32m2018-11-01 11:45:09,098 INFO  [Log] _____________________________________________[m[41m [m
+[32m+[m[32m2018-11-01 11:45:09,098 INFO  [Log][m[41m                                               [m
+[1mdiff --git a/src/Utility/Constant.java b/src/Utility/Constant.java[m
+[1mindex 27e969e..6b0e1ef 100644[m
+[1m--- a/src/Utility/Constant.java[m
+[1m+++ b/src/Utility/Constant.java[m
+[36m@@ -10,13 +10,7 @@[m [mpublic class Constant {[m
+      public static final String Username = "longnguyen";[m
+ 	 public static final String Password ="Long1234@";[m
+ [m
+[31m-	 public static final int Col_TestCaseName = 0;	[m
+[31m-	 [m
+[31m-		public static final int Col_UserName =1 ;[m
+[31m-[m
+[31m-		public static final int Col_Password = 2;[m
+[31m-[m
+[31m-		public static final int Col_Browser = 3;[m
+[32m+[m[41m    [m
+ [m
+      public static final String Path_TestData = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\testData\\";[m
+      [m
+[1mdiff --git a/src/automationFramework/FirstTestCase.java b/src/automationFramework/FirstTestCase.java[m
+[1mindex 6847f8f..8b1dfcb 100644[m
+[1m--- a/src/automationFramework/FirstTestCase.java[m
+[1m+++ b/src/automationFramework/FirstTestCase.java[m
+[36m@@ -37,8 +37,8 @@[m [mpublic class FirstTestCase {[m
+ 		//String exePath = "C:\\Automation Code\\driver\\geckodriver-v0.19.1-win64\\geckodriver.exe";[m
+ 		//System.setProperty("webdriver.chrome.driver", exePath);[m
+ 		//System.setProperty("webdriver.gecko.driver", exePath);[m
+[31m-	    //driver = new ChromeDriver();[m
+[31m-		driver = new FirefoxDriver();[m
+[32m+[m	[32m    driver = new ChromeDriver();[m[41m[m
+[32m+[m		[32m//driver = new FirefoxDriver();[m[41m[m
+ 				[m
+ 		        //Launch the Online Store Website[m
+ 				driver.get("https://heb--magrabcert.lightning.force.com");[m
+[1mdiff --git a/src/automationFramework/POM_TC.java b/src/automationFramework/POM_TC.java[m
+[1mindex a2ab04c..731a005 100644[m
+[1m--- a/src/automationFramework/POM_TC.java[m
+[1m+++ b/src/automationFramework/POM_TC.java[m
+[36m@@ -25,26 +25,20 @@[m [mpublic class POM_TC {[m
+ 	public static void main(String[] args) throws Exception {[m
+ 		[m
+ 		//String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";[m
+[31m-		[m
+ 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");[m
+ 		DOMConfigurator.configure("log4j.xml");[m
+ [m
+ 		Log.startTestCase("Selenium_Test_001");[m
+ 		[m
+ 		//System.setProperty("webdriver.chrome.driver", Constant.exePath);[m
+[31m-		[m
+[31m-	    //driver = new ChromeDriver();[m
+[31m-			driver = new FirefoxDriver();[m
+[31m-		[m
+[31m-		[m
+[32m+[m	[32m    driver = new ChromeDriver();[m[41m[m
+ 	    Log.info("Start Chrome");[m
+ 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);[m
+ 	    driver.get(Constant.URL);[m
+ 	    Log.info("Open Url");[m
+ 	    driver.manage().window().maximize();[m
+ 	    Log.info("Maximum the Window");[m
+[31m-		//}[m
+[31m-		[m
+[32m+[m[41m	    [m
+ 	    /*HomePage.lnk_Login(driver).click();[m
+ 	    Thread.sleep(2000);[m
+ 		[m
+[36m@@ -76,6 +70,6 @@[m [mpublic class POM_TC {[m
+ 		Thread.sleep(2000);[m
+ 		driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();[m
+ 		Log.endTestCase("Selenium_Test_001");[m
+[31m-		ExcelUtils.setCellData("Pass", 1, 4);[m
+[32m+[m		[32mExcelUtils.setCellData("Pass", 1, 3);[m[41m[m
+ 	}[m
+ }[m
+[1mdiff --git a/src/testData/TestData.xlsx b/src/testData/TestData.xlsx[m
+[1mindex ad4bf0e..26f8d8d 100644[m
+Binary files a/src/testData/TestData.xlsx and b/src/testData/TestData.xlsx differ

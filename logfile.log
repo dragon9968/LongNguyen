@@ -1,4 +1,1 @@
-2018-11-01 14:21:41,681 INFO  [Log] ------Selenium_Test_001------ 
-2018-11-01 14:21:46,551 INFO  [Log] Start Chrome 
-2018-11-01 14:21:56,702 INFO  [Log] Open Url 
-2018-11-01 14:21:56,771 INFO  [Log] Maximum the Window 
+2018-11-01 16:21:38,868 INFO  [FirstTestCase] Launch Magrabcert sandbox Website 
