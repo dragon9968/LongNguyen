@@ -1,0 +1,30 @@
+<suite name="Test-Suite" parallel="false" preserve-order="true" thread-count="1">
+<!-- 
+<test name="ToolQA">
+<classes>
+<class name="automationFramework.POM_NG1" />
+<methods>
+               <include name="LoginOnlineStore"></include>
+               <include name="ChooseandAddProducttoCart"></include>
+            </methods>      
+ </classes>
+ </test>
+ <test name="ToolQA1">
+ <classes>
+<class name="automationFramework.POM_NG2" />
+ </classes>
+ </test> 
+               -->
+ <test name="Ticket551" > 
+<classes>
+<class name="automationFramework.Ticket551" parallel="false"/>
+</classes>
+</test>
+
+<test name="Ticket653">
+<classes>
+<class name="automationFramework.Ticket653" parallel="false"/>
+</classes>
+</test> 
+
+ </suite>

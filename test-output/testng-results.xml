@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Customer make a MCI request Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109476" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109476" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+      <class name="automationFramework.Ticket711">
+        <test-method status="PASS" signature="MyCommunityRequest()[pri:1, instance:automationFramework.Ticket711@3e6fa38a]" name="MyCommunityRequest" duration-ms="109429" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Customer make a MCI request Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyCommunityRequest -->
+      </class> <!-- automationFramework.Ticket711 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
