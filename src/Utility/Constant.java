@@ -12,7 +12,7 @@ public class Constant {
 
     
 
-     public static final String Path_TestData = "C:\\Automation Code\\OnlineStore\\src\\testData\\";
+     public static final String Path_TestData = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\testData\\";
      
      public static final String Path_ScreenShot = "C:\\Users\\longnguyen\\git\\repository\\SalesforceBAU\\src\\Screenshots\\";
 

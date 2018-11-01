@@ -1,1 +1,18 @@
-2018-11-01 11:19:42,306 INFO  [FirstTestCase] Launch Magrabcert sandbox Website 
+2018-11-01 11:44:44,466 INFO  [Log] ------Selenium_Test_001------ 
+2018-11-01 11:44:47,642 INFO  [Log] Start Chrome 
+2018-11-01 11:44:59,946 INFO  [Log] Open Url 
+2018-11-01 11:45:01,140 INFO  [Log] Maximum the Window 
+2018-11-01 11:45:01,236 INFO  [Log] LOG IN Button found 
+2018-11-01 11:45:01,384 INFO  [Log] CLick Login button 
+2018-11-01 11:45:03,418 INFO  [Log] ORG Button found 
+2018-11-01 11:45:03,489 INFO  [Log] Click Org button 
+2018-11-01 11:45:03,512 INFO  [Log] Email textbox found 
+2018-11-01 11:45:03,688 INFO  [Log] Input Wrong Email 
+2018-11-01 11:45:03,708 INFO  [Log] Password textbox found 
+2018-11-01 11:45:03,816 INFO  [Log] Input Wrong Password 
+2018-11-01 11:45:03,838 INFO  [Log] SendEmail button found 
+2018-11-01 11:45:03,934 INFO  [Log] Click Send button 
+2018-11-01 11:45:06,935 INFO  [Log] Login Successfully 
+2018-11-01 11:45:09,098 INFO  [Log] ______Selenium_Test_001_______ 
+2018-11-01 11:45:09,098 INFO  [Log] _____________________________________________ 
+2018-11-01 11:45:09,098 INFO  [Log]                                               

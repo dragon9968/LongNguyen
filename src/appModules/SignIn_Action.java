@@ -18,9 +18,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SignIn_Action {
 	
-	public static void Execute_1(WebDriver driver, String sEmail, String sPassword) throws Exception {		
-		//String sEmail = ExcelUtils.getCellData(1, 1);
-		//String sPassword = ExcelUtils.getCellData(1, 2);  
+	public static void Execute_1(WebDriver driver) throws Exception {		
+		String sEmail = ExcelUtils.getCellData(1, 1);
+		String sPassword = ExcelUtils.getCellData(1, 2);  
 		HomePage.lnk_Login(driver).click();
 		Log.info("CLick Login button");
 	    Thread.sleep(2000);
