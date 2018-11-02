@@ -52,11 +52,11 @@ public class FirstTestCase {
 
 				//Wait for 5 Sec
 				Thread.sleep(2000);
-				/*driver.findElement(By.xpath(".//*[@id='idp_section_buttons']/button")).click();
+				driver.findElement(By.xpath(".//*[@id='idp_section_buttons']/button")).click();
 				Thread.sleep(1000);
-				Runtime.getRuntime().exec("C:\\Automation Code\\authentication.exe");
+				Runtime.getRuntime().exec("E:\\WORK\\Automation Code\\authentication.exe");
 				 
-			    Thread.sleep(5000);*/
+			    Thread.sleep(5000);
 
 				/*
 				String title = driver.getTitle();
@@ -84,7 +84,7 @@ public class FirstTestCase {
 				driver.findElement(By.xpath(".//*[@class='sbsb_g']/span[1]//*[@class='lsb']")).click();*/
 					
 
-				
+				/*
 				
 				driver.navigate().to("https://www.donortiles.com/");
 				//driver.navigate().back();
@@ -127,7 +127,7 @@ public class FirstTestCase {
 				Thread.sleep(2000);
 				driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();
 
-
+*/
 	}
 
 }

@@ -4,15 +4,15 @@ public class BAUConstant {
 	
 	
 	//General Information
-	public static final String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
+	public static final String exePath = "E:\\WORK\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
 	//public static final String exePath = "C:\\Automation Code\\driver\\geckodriver-v0.19.1-win64\\geckodriver.exe";
 	public static final String Worktik2URL = "https://worktck2-heb.cs13.force.com/NutritionAppointment/selfHelpScheduler";
 	public static final String MagrabcertBookingURL = "https://magrabcert-heb.cs19.force.com/NutritionAppointment/selfHelpScheduler";
 	public static final String MagrabcertURL = "https://heb--magrabcert.lightning.force.com";
 	public static final String MCIURL = "https://worktik1-myheb.cs19.force.com/MCI/s/login/";
 
-	public static final String Path_TestData = "C:\\Automation Code\\OnlineStore\\src\\testData\\";
-	public static final String Path_ScreenShot = "C:\\Automation Code\\OnlineStore\\src\\Screenshots\\";
+	public static final String Path_TestData = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\testData\\";
+	public static final String Path_ScreenShot = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\Screenshots\\";
 	public static final String File_TestData = "TestData.xlsx";
 	//public static final String URL = "https://uatlite-heb.cs14.force.com/NutritionAppointment/selfHelpScheduler";
 	public static final String SFUsername = "mrv3@heb.com.magrabcert";

@@ -1,1 +1,54 @@
-2018-11-01 16:21:38,868 INFO  [FirstTestCase] Launch Magrabcert sandbox Website 
+2018-11-02 10:29:47,801 INFO  [Log] ------Ticket711_MCIRequest_Successull_Testcase001------ 
+2018-11-02 10:30:03,186 INFO  [Log] Input Username 
+2018-11-02 10:30:03,315 INFO  [Log] Input Password 
+2018-11-02 10:30:07,444 INFO  [Log] Click on Login button 
+2018-11-02 10:30:12,400 INFO  [Log] Click on Get Started button 
+2018-11-02 10:30:15,586 INFO  [Log] Choose a Brand to submit request 
+2018-11-02 10:30:16,760 INFO  [Log] Choose a Event to submit request 
+2018-11-02 10:30:19,318 INFO  [Log] Click on Next button 
+2018-11-02 10:30:24,492 INFO  [Log] Choose a Central Market to submit request 
+2018-11-02 10:30:26,581 INFO  [Log] Click on Next button 
+2018-11-02 10:30:29,836 INFO  [Log] Enter Organization Name 
+2018-11-02 10:30:31,032 INFO  [Log]  Is your organization an Internal Revenue Service (IRS) pre-validated non-profit or public tax-exempt organization, as defined under Section 501(c)? 
+2018-11-02 10:30:32,236 INFO  [Log] Enter Organization 501(c) Federal Taxpayer ID Number (TIN) 
+2018-11-02 10:30:33,390 INFO  [Log] Enter Contact First Name 
+2018-11-02 10:30:34,543 INFO  [Log] Enter Contact Last Name 
+2018-11-02 10:30:35,752 INFO  [Log] Enter Phone Number 
+2018-11-02 10:30:37,015 INFO  [Log] Enter Contact Email 
+2018-11-02 10:30:38,231 INFO  [Log] Enter Organization Address  
+2018-11-02 10:30:39,387 INFO  [Log] Enter Organization City  
+2018-11-02 10:30:40,584 INFO  [Log] Select Organization State 
+2018-11-02 10:30:41,731 INFO  [Log] Enter Organization Zip Code 
+2018-11-02 10:30:42,855 INFO  [Log] Tick on 'Organization Mailing Address is the Same as Above' 
+2018-11-02 10:30:43,954 INFO  [Log] Click on Save and Continue button 
+2018-11-02 10:30:46,146 INFO  [Log] Which of the following best represents your organization's PRIMARY area of focus? 
+2018-11-02 10:30:47,265 INFO  [Log] Enter Organization Found 
+2018-11-02 10:30:49,372 INFO  [Log] Enter Organization Mission 
+2018-11-02 10:30:51,471 INFO  [Log] Enter Organization Provide 
+2018-11-02 10:30:53,664 INFO  [Log] Has your organization received a donation from us in the past? 
+2018-11-02 10:30:54,833 INFO  [Log] Do any of our Partners (employees) currently volunteer with or serve on the board of your organization? 
+2018-11-02 10:30:56,032 INFO  [Log] Is your organization presently supported by another grocery retailer? 
+2018-11-02 10:30:57,199 INFO  [Log] Is your organization a United Way agency? 
+2018-11-02 10:30:58,315 INFO  [Log] Click on Save and Continue button 
+2018-11-02 10:31:00,468 INFO  [Log] Check any of the following if your request pertains to: 
+2018-11-02 10:31:02,693 INFO  [Log] What is the PRIMARY purpose of this request? 
+2018-11-02 10:31:03,877 INFO  [Log] Please indicate the type of event. 
+2018-11-02 10:31:05,252 INFO  [Log] Enter Event Program 
+2018-11-02 10:31:06,463 INFO  [Log] Enter Event Date 
+2018-11-02 10:31:07,584 INFO  [Log] Enter Event Program Describe 
+2018-11-02 10:31:08,695 INFO  [Log] What type of support are you requesting? 
+2018-11-02 10:31:09,869 INFO  [Log] * How do you intend to use this donation? 
+2018-11-02 10:31:11,043 INFO  [Log] How many people are expected to participate/attend the event? 
+2018-11-02 10:31:12,212 INFO  [Log] How many people participated/attended the event last year? 
+2018-11-02 10:31:13,425 INFO  [Log] Choose Date Decision 
+2018-11-02 10:31:14,553 INFO  [Log] Please indicate how you plan to promote your event/program 
+2018-11-02 10:31:15,731 INFO  [Log] If approved, do you plan to use our logo in your event/program materials? 
+2018-11-02 10:31:16,905 INFO  [Log] Will our organization receive any advertising for this event/program? 
+2018-11-02 10:31:18,013 INFO  [Log]  If approved, how will your organization recognize our contribution? 
+2018-11-02 10:31:19,221 INFO  [Log] How did your organization hear about our Community Investment Program? 
+2018-11-02 10:31:20,310 INFO  [Log] Click on Save and Continue button 
+2018-11-02 10:31:23,392 INFO  [Log] Click on Save and Continue button 
+2018-11-02 10:31:26,481 INFO  [Log] Click on Submit button 
+2018-11-02 10:31:28,481 INFO  [Log] ______Ticket711_MCIRequest_Successull_Testcase001_______ 
+2018-11-02 10:31:28,481 INFO  [Log] _____________________________________________ 
+2018-11-02 10:31:28,481 INFO  [Log]                                               

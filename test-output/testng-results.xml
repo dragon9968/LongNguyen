@@ -5,12 +5,12 @@
       <![CDATA[Customer make a MCI request Successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="109476" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+  <suite name="Default suite" duration-ms="105837" started-at="2018-11-02T03:29:47Z" finished-at="2018-11-02T03:31:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="109476" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+    <test name="Default test" duration-ms="105837" started-at="2018-11-02T03:29:47Z" finished-at="2018-11-02T03:31:33Z">
       <class name="automationFramework.Ticket711">
-        <test-method status="PASS" signature="MyCommunityRequest()[pri:1, instance:automationFramework.Ticket711@3e6fa38a]" name="MyCommunityRequest" duration-ms="109429" started-at="2018-10-11T09:08:29Z" finished-at="2018-10-11T09:10:18Z">
+        <test-method status="PASS" signature="MyCommunityRequest()[pri:1, instance:automationFramework.Ticket711@26653222]" name="MyCommunityRequest" duration-ms="105795" started-at="2018-11-02T03:29:47Z" finished-at="2018-11-02T03:31:33Z">
           <reporter-output>
             <line>
               <![CDATA[Customer make a MCI request Successfully]]>

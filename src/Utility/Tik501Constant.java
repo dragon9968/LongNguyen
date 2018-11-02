@@ -2,7 +2,7 @@ package Utility;
 
 public class Tik501Constant {
 	
-	public static final String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
+	public static final String exePath = "E:\\WORK\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
 	public static final String URL = "https://worktck2-heb.cs9.force.com/NutritionAppointment/selfHelpScheduler";
 	
 	 
