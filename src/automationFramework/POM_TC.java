@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Utility.Constant;
 import Utility.ExcelUtils;
@@ -22,7 +23,8 @@ public class POM_TC {
 
 	private static WebDriver driver = null;
 	
-	public static void main(String[] args) throws Exception {
+	@Test
+	public static void main() throws Exception {
 		
 		//String exePath = "C:\\Automation Code\\driver\\chromedriver_win32\\chromedriver.exe";
 		
@@ -33,8 +35,9 @@ public class POM_TC {
 		
 		//System.setProperty("webdriver.chrome.driver", Constant.exePath);
 		
-	    //driver = new ChromeDriver();
-			driver = new FirefoxDriver();
+		for (int iRow=1;iRow<=5;iRow++) {	
+	    driver = new ChromeDriver();
+	    //driver = new FirefoxDriver();
 		
 		
 	    Log.info("Start Chrome");
@@ -44,7 +47,10 @@ public class POM_TC {
 	    driver.manage().window().maximize();
 	    Log.info("Maximum the Window");
 		//}
-		
+	    
+	    
+	    String sEmail = ExcelUtils.getCellData(iRow, 1);
+		String sPassword = ExcelUtils.getCellData(iRow, 2);  
 	    /*HomePage.lnk_Login(driver).click();
 	    Thread.sleep(2000);
 		
@@ -54,9 +60,11 @@ public class POM_TC {
 		Login.txt_Password(driver).sendKeys("123456");
 		Login.btn_Send(driver).click();
 		Thread.sleep(3000);*/
-	    SignIn_Action.Execute_1(driver);
-	    Log.info("Login Successfully");
-
+	    SignIn_Action.Execute_1(driver, sEmail, sPassword);
+	    Log.info("Login Unuccessfully");
+	    ExcelUtils.setCellData("Passed1107", iRow, 4);
+	    driver.close();
+/*     
 		//String expectedMessage ="You've entered your email/password incorrectly. Please try again.";
 		//String actualMessage = driver.findElement(By.xpath("//*[@id='loginOrgForm']//*[@id='notExistError']")).getText();
 	    String actualMessage = Login.actualwronginfo_message(driver).getText();
@@ -72,10 +80,11 @@ public class POM_TC {
 			{
 			System.out.println("There is no notice message");	
 			}
-		
+		*/
+		}
 		Thread.sleep(2000);
-		driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();
+		//driver.findElement(By.xpath(".//*[@class='close login-close-Bt']")).click();
 		Log.endTestCase("Selenium_Test_001");
-		ExcelUtils.setCellData("Pass", 1, 4);
+		
 	}
 }

@@ -23,6 +23,8 @@ public class Constant {
      public static final String Path_ScreenShot = "E:\\WORK\\Automation Code\\SalesforceBAU\\src\\Screenshots\\";
 
      public static final String File_TestData = "TestData.xlsx";
+     public static final String Csv_TestData = "TestData.csv";
+
      
      public static final String expectedMessage = "You've entered your email/password incorrectly. Please try again.";
      public static final String expectedMessage1 = "This field is required.";

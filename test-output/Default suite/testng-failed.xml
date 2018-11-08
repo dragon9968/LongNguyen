@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.Ticket711">
+      <class name="automationFramework.POM_TC_csv">
         <methods>
-          <include name="MyCommunityRequest"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- automationFramework.Ticket711 -->
+      </class> <!-- automationFramework.POM_TC_csv -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

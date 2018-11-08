@@ -16,6 +16,13 @@ public class HomePage {
    return element;
    }
    
+   public static WebElement turn_off_popup (WebDriver driver) {
+	   element = driver.findElement(By.xpath("//*[@class='close login-close-Bt']"));
+	   Log.info("X popupfound");
+   return element;
+   }
+   
+   
    public static WebElement lnk_SignUp (WebDriver driver) {
 	   element = driver.findElement(By.xpath("//*[@id='create_account']"));
 	   Log.info("SIGN UP Button found");

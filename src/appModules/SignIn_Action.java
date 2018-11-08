@@ -18,21 +18,33 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SignIn_Action {
 	
-	public static void Execute_1(WebDriver driver) throws Exception {		
-		String sEmail = ExcelUtils.getCellData(1, 1);
-		String sPassword = ExcelUtils.getCellData(1, 2);  
-		HomePage.lnk_Login(driver).click();
-		Log.info("CLick Login button");
-	    Thread.sleep(2000);
-		HomePage.lnk_BtOrg(driver).click();
-		Log.info("Click Org button");
-		Login.txt_Email(driver).sendKeys(sEmail);
-		Log.info("Input Wrong Email");
-		Login.txt_Password(driver).sendKeys(sPassword);
-		Log.info("Input Wrong Password");
-		Login.btn_Send(driver).click();
-		Log.info("Click Send button");
-		Thread.sleep(3000);	
+	public static void Execute_1(WebDriver driver,String sEmail,String sPassword) throws Exception {	
+		
+		//for (int iRow=1;iRow<=2;iRow++) 
+		//{
+			//String sEmail = ExcelUtils.getCellData(iRow, 1);
+			//String sPassword = ExcelUtils.getCellData(iRow, 2);  
+			HomePage.lnk_Login(driver).click();
+			Log.info("CLick Login button");
+		    Thread.sleep(2000);
+			HomePage.lnk_BtOrg(driver).click();
+			Log.info("Click Org button");
+			Thread.sleep(2000);
+			Login.txt_Email(driver).sendKeys(sEmail);
+			Log.info("Input Wrong Email");
+			Thread.sleep(1000);
+			Login.txt_Password(driver).sendKeys(sPassword);
+			Log.info("Input Wrong Password");
+			Thread.sleep(1000);
+			Login.btn_Send(driver).click();
+			Log.info("Click Send button");
+			Thread.sleep(3000);	
+			HomePage.turn_off_popup(driver).click();
+			Log.info("Click X button");
+			Thread.sleep(3000);
+			
+		//}
+		
 	}
 	
 	public static void Execute_2(WebDriver driver, String sEmail, String sPassword) throws Exception {		
