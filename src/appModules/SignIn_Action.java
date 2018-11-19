@@ -25,6 +25,7 @@ public class SignIn_Action {
 			//String sEmail = ExcelUtils.getCellData(iRow, 1);
 			//String sPassword = ExcelUtils.getCellData(iRow, 2);  
 			HomePage.lnk_Login(driver).click();
+		    //Utils.Long_Click(HomePage.lnk_Login(driver), driver);
 			Log.info("CLick Login button");
 		    Thread.sleep(2000);
 			HomePage.lnk_BtOrg(driver).click();

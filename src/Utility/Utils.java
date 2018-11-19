@@ -79,6 +79,12 @@ public class Utils {
 		 WebDriverWait wait = new WebDriverWait(driver, 10);
 	     wait.until(ExpectedConditions.elementToBeClickable(element));
 	 	}
+ 
+ /*public static void Long_Click(WebElement element, WebDriver driver){
+		
+    WebElement lol = driver.findElement(By.xpath("//*[contains(text(),'LOG IN')]"));
+    lol.click();
+ 	}*/
 	
  public static void hoverOnElement(WebDriver driver,WebElement mainelement,WebElement subelement) {
 	 
